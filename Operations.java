@@ -30,4 +30,13 @@ public class Operations {
     public static int multiply(int x, int y) {
         return x * y;
     }
+    /**
+     * The addition function.
+     * @param x The first operand
+     * @param y The second operand
+     * @return the sum of x and y
+     */
+    public static int divide(int x, int y) {
+        return x / y;
+    }
 }

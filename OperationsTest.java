@@ -16,4 +16,9 @@ public class OperationsTest {
     public void testMultiply() throws Exception {
         Assert.assertEquals(4, Operations.multiply(2, 2));
     }
+    
+    @Test
+    public void testDivide() throws Exception {
+        Assert.assertEquals(1, Operations.divide(2, 2));
+    }
 }
